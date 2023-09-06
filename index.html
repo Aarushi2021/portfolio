@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d6f5170aea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="first">
+   <div class="container">
+    <nav>
+        <img src=" logo.png"  class="logo">
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li> 
+            <li> <a href="#services">Service</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
+
+            <i class="fas fa-times" onclick="closemenu()"></i>
+ 
+        </ul>
+
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+        <!-- <button id="themeToggle" class="theme-button light" title="Toggle Theme"></button> -->
+
+    </nav>
+    <div class="header-text">
+        <div id="header"></div> 
+        <p>Web Developer</p>
+        <h1 >Hi, I'm <span>Aarushi</span> <br>from Bhiwani Haryana </h1>
+    </div>
+   </div>
+   </div>
+
+   <!-- ----------------------about--------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src=" img3.png"  alt="">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p >  My name is Aarushi and I am from Bhiwani Haryana. 
+                    I am currently studying in my 3rd year in Btech Engineering in
+                     Computer Science at Chitkara University. I had a good academic score 
+                     in my school time and even now in college I also maintain the same report card.
+                 I have good networking skills and I wish to become a Software Engineer.
+
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Developer</span><br>Web Development</li>
+                        <li><span>Networking</span><br>Knowledge of Routing Protocols</li>
+                        <li><span>Programming language</span><br>Java/C++/C</li>
+                        <li><span>Operating System</span><br>Linux operating System</li>
+                        <li><span>Database Management System</span><br>Sql, MySql etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-current</span><br>Portfolio</li>
+                        <li><span>2022</span><br>Shopping-website</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>10th fromBhiwani Public School</li>
+                        <li><span>2021</span><br>12th from Sidharatha Public School</li>
+                        <li><span>2021-2025</span><br>BE-CSE from Chitkara University</li>
+                    </ul>
+                </div>
+             </div>
+         </div>
+    </div>   
+</div>
+ 
+<!-- --------------------services---------------------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1  class="sub-title">My Services</h1>
+         <div class="service-list">
+            <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Website development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                 Asperiores, nisi at dignissimos debitis corporis sunt recusandae Lorem ipsum
+                  dolor sit amet consectetur adipisicing elit. Numquam mollitia ut c, saepe deserunt commodi beatae ipsa sint cumque suscipit illo.
+                 omnis.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>Networking</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                 Asperiores,Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, necessitatibus inventore eum distinctio quam et voluptates id rerum fuga rep
+                 ellendus culpa aliquidt dolores illo maxime dignissimos!
+                  nisi at dignissimos debitis corporis sunt recusandae omnis.</p>
+                 
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Programming</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ex voluptates! Nec
+                    essitatibus sit error non iusto pariatur aliquam dolore optio. 
+                 Asperiores, nisi at dignissimos debitis corporis sunt recusandae omnis.</p>
+                 
+            </div>
+         </div>
+    </div>
+</div>
+<!-- -----------------------------------portfolio----------------------------------------------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src=" work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p>This site helps you to order gorcery from 
+                    nearby retailer. you can find any household daily basic need things. </p>
+                    <a target="_blank" href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_2p6dv0thzd_b&adgrpid=1318316051400565&hvadid=82395012037172&hvnetw=o&hvqmt=b&hvbmt=bb&hvdev=c&hvlocint=&hvlocphy=150101&hvtargid=kwd-82395636520001:loc-90&hydadcr=5848_1955262"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src=" work-1.png" alt="">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p> I make a personal portfolio of myself which includes all my experience,
+                        skill,education etc.  Here you can find about me and can also contact me if you 
+                    need anything. </p>
+                    <a target="_blank" href="http://127.0.0.1:5500/#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src=" work-2.png" alt="">
+                <div class="layer">
+                    <h3>XYZ</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia doloribus voluptas quod neque ullam eum cum? </p>
+                    <a target="_blank" href="https://www.w3schools.com/js/default.asp"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>    <!--work list ke baad -->
+
+    </div>
+</div>
+
+<!-- ---------------------------------------------------Contact------------------------------------------------------------------------------------------------------------ -->
+ 
+<div id="contact">
+    <div class="container">
+        <div class="row">  <!--int his one row we two coloumns one for contact details and second for connect-->
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>arushisaxena059@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9416359392</p>
+                <div class="social-icons">
+                    <a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://instagram.com/aarushi8940?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                   <a target="_blank" href="https://www.linkedin.com/in/aarushi-888345240"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+
+                 <!-- in the left coloumn of the row we want to download cv -->
+                <a href="aarushi resume (3).pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+             <span id="msg"></span>  <!--hello ya message tab dikhe jab hum button click kre-->
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Aarushi Saxena </p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+           tablink.classList.remove("active-link") ;
+        }
+        for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab")  ;
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPesPbdMyIQec_OUoeFE0ngtFYW57kez5fiGNxzonIrF3OlxpxnJaWYpH0Cu1wT18U/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML ="Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML =""
+            },5000)  
+            form.reset()  /*then reset the form*/
+        } )  /*console.log('Success!', response) we remove this because we have to show message
+         but for some time wrna infinite message  so after 5000ms yaani 5 sec message remove*/
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+
+
+</body>
+</html>
